@@ -2,6 +2,7 @@
   "name": "type-racer-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://AraGor89.github.io/type-racer",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -16,6 +17,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-react-hooks": "^2.4.0"
+    "eslint-plugin-react-hooks": "^2.4.0",
+    "gh-pages": "^3.0.0"
   }
 }
