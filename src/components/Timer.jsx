@@ -23,7 +23,7 @@ const Timer = ({
 
   return (
     <div className={style.timer}>
-      <span>{time}</span>
+      <span className={style.time}>{time}</span>
       <span className={style.timing}>
         Your typing speed was <span className={style.speed}>{speed}</span>
         seconds per word

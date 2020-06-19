@@ -24,3 +24,14 @@ body {
   background-color: #04843b;
   color: #04843b;
 }
+
+@media only screen and (max-width: 850px) {
+  .appContainer {
+    margin: 10px;
+    padding-top: 100px;
+  }
+  .title {
+    font-size: 25px;
+    border-bottom: 2px solid gray;
+  }
+}

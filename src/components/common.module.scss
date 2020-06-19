@@ -56,6 +56,26 @@
   color: black;
 }
 .speed {
-  margin: 10px;
-  font-size: larger;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  color: yellow;
+}
+
+@media only screen and (max-width: 850px) {
+  .container {
+    width: 90%;
+    margin-top: 30px;
+    height: auto;
+  }
+  .timer {
+    height: auto;
+  }
+  .time {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    color: green;
+    font-size: 30px;
+  }
 }
