@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/type-racer/static/css/main.bdd615aa.chunk.css",
+    "main.js": "/type-racer/static/js/main.fb79d26b.chunk.js",
+    "main.js.map": "/type-racer/static/js/main.fb79d26b.chunk.js.map",
+    "runtime-main.js": "/type-racer/static/js/runtime-main.4e37bc27.js",
+    "runtime-main.js.map": "/type-racer/static/js/runtime-main.4e37bc27.js.map",
+    "static/js/2.73bfe6f9.chunk.js": "/type-racer/static/js/2.73bfe6f9.chunk.js",
+    "static/js/2.73bfe6f9.chunk.js.map": "/type-racer/static/js/2.73bfe6f9.chunk.js.map",
+    "index.html": "/type-racer/index.html",
+    "precache-manifest.df09452d8e1a5af36a52caefc00bb415.js": "/type-racer/precache-manifest.df09452d8e1a5af36a52caefc00bb415.js",
+    "service-worker.js": "/type-racer/service-worker.js",
+    "static/css/main.bdd615aa.chunk.css.map": "/type-racer/static/css/main.bdd615aa.chunk.css.map",
+    "static/js/2.73bfe6f9.chunk.js.LICENSE.txt": "/type-racer/static/js/2.73bfe6f9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e37bc27.js",
+    "static/js/2.73bfe6f9.chunk.js",
+    "static/css/main.bdd615aa.chunk.css",
+    "static/js/main.fb79d26b.chunk.js"
+  ]
+}
