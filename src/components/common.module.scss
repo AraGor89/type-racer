@@ -1,0 +1,61 @@
+.container {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 15px;
+  border: 2px solid #138f43;
+  box-shadow: 1px 1px 30px 10px #888888;
+  width: 800px;
+  max-width: 90%;
+}
+.timer > span {
+  margin-left: 40px;
+}
+.timer {
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(to right, #7ccd57, #04843b);
+  border-radius: 20px;
+  padding: 10px 10px;
+  margin-bottom: 15px;
+  color: white;
+  height: 50px;
+}
+.quoteDisplay {
+  margin-bottom: 1rem;
+  margin-left: calc(1rem + 2px);
+  margin-right: calc(1rem + 2px);
+}
+
+.quoteInput {
+  background-color: transparent;
+  border: 2px solid #777575;
+  outline: none;
+  width: 100%;
+  height: 18rem;
+  margin: auto;
+  resize: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.quoteInput:focus {
+  border-color: green;
+}
+
+.correct {
+  color: rgb(3, 212, 3);
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+}
+
+.notTouched {
+  color: black;
+}
+.speed {
+  margin: 10px;
+  font-size: larger;
+}
