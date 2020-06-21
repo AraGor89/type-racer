@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import style from "./common.module.scss";
 
-let interval;
-
 const Timer = ({
   incrementTime,
   resetTime,
@@ -13,13 +11,12 @@ const Timer = ({
 }) => {
   let checkEquality = typingField === quote;
   useEffect(() => {
-    interval = setInterval(() => incrementTime(), 1000);
+    let interval = setInterval(() => incrementTime(), 1000);
+    return () => {
+      resetTime();
+      clearInterval(interval);
+    };
   }, [quote, checkEquality]);
-
-  useEffect(() => {
-    resetTime();
-    clearInterval(interval);
-  }, [checkEquality]);
 
   return (
     <div className={style.timer}>
